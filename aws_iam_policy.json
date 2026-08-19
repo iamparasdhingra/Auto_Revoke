@@ -1,0 +1,12 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": [
+                "iam:UpdateAccessKey"
+            ],
+            "Resource": "arn:aws:iam::*:user/demo-leak-user"
+        }
+    ]
+}
